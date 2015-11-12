@@ -1,10 +1,10 @@
-
-/* Main */
 body {
     font-size: 13px;
     background-size: contain;
     background: no-repeat url(https://rawgit.com/Satsume/WebWhatsappStyles/master/background.png) 0 0;
 }
+
+/* Main */
 .app-wrapper::after {
     display: none;
 }
@@ -275,9 +275,20 @@ img.emoji {
 .message-out {
     float: none;
     text-align: right;
-    background-color: #fcfffb;
+    background-color: #fdfffd;
 }
 .message-text {
     font-size: inherit;
     line-height: 160%;     
+}
+.pane-chat-footer {
+    border-top: 1px solid #000; 
+    border-left: 1px solid #000;
+    margin-left: 1px;
+}
+.pane-chat-footer .block-compose {
+    padding: 0 5px;
+}
+.pane-chat-footer .block-compose .icon-ptt {
+    bottom: 8px;
 }
