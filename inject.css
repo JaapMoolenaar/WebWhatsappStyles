@@ -16,3 +16,66 @@
 .pane-intro, .pane-chat {
     width: 75%;
 }
+.butterbar-container {
+    background-color: #fefefe;
+}
+.butterbar {
+    background-color: transparent;
+    min-height: 0;
+    padding: 0;
+}
+.butterbar-notification {
+    display: none;
+}
+.butterbar-wrapper {
+}
+.butterbar .butterbar-icon,
+.butterbar .butterbar-text {
+    display: none;
+}
+.butterbar .butterbar-title {
+    color: #000;
+    font-size: inherit;
+    line-height: 160%;
+}
+.butterbar .butterbar-body {
+    border: 1px solid #000;
+    border-bottom: 0 none;
+}
+.subheader-search {
+    height: 30px;
+    border: 1px solid #000;
+    border-bottom: 0 none;    
+}
+.subheader-search button {
+    display: none;
+}
+.subheader-search .input-placeholder {
+    height: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-size: inherit;
+    line-height: 160%;
+}
+.subheader-search .cont-input-search {
+    height: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    border-radius: 0;
+    color: #000;
+    font-size: inherit;
+    line-height: 160%;
+    -webkit-padding-start: 0 !important;
+}
