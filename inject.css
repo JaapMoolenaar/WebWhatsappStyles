@@ -235,11 +235,26 @@ img.emoji {
 .message .bubble-attach {
     width: auto;
 }
-.message .bubble-attach .icon-user-default-square {
-    background: none;
+.message .bubble-audio .contents {
+    -webkit-margin-end: 0px;
 }
-.message .bubble-attach .meta-audio {
-    
+.message .bubble-audio .preview {
+    width: auto;
+    height: auto;
+}
+.message .bubble-audio .preview {
+    background-image: none !important;
+}
+.message .bubble-audio .meta-audio {
+    right: auto !important;
+    left:  53px;
+}
+.message .bubble-audio .audio-status {
+    right: 0px;
+    bottom: 18px;
+}
+.message .bubble-audio .message-meta {
+    right: 7px;
 }
 .message-in, 
 .message-out {
