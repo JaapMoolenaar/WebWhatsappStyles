@@ -28,6 +28,9 @@ body {
 .pane-list {
     width: 25%;
 }
+.pane-list-body {
+    background-color: inherit;
+}
 .pane-intro, .pane-chat {
     width: 75%;
 }
