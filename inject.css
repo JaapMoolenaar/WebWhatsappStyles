@@ -201,9 +201,17 @@ img.emoji {
 .message.message-system {
     display: none;
 }
+
 .message .bubble {
     padding: 0;   
 }
+.message .bubble-attach {
+    width: auto;
+}
+.message .btn-context-chat {
+    display: none;
+}
+
 .message .bubble-image {
     max-height: 50px;
 }
@@ -232,9 +240,8 @@ img.emoji {
 .message .bubble-image .image-thumb-lores {
     -webkit-filter: blur(1px); 
 }
-.message .bubble-attach {
-    width: auto;
-}
+
+
 .message .bubble-audio .contents {
     -webkit-margin-end: 0px;
 }
@@ -256,6 +263,7 @@ img.emoji {
 .message .bubble-audio .message-meta {
     right: 7px;
 }
+
 .message-in, 
 .message-out {
     border-radius: 0;
