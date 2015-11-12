@@ -1,10 +1,10 @@
+
+/* Main */
 body {
     font-size: 13px;
     background-size: contain;
     background: no-repeat url(https://rawgit.com/Satsume/WebWhatsappStyles/master/background.png) 0 0;
 }
-
-/* Main */
 .app-wrapper::after {
     display: none;
 }
