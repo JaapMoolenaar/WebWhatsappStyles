@@ -180,14 +180,35 @@ img.emoji {
     padding: 0;
     margin: 0;
 }
+.msg,
+.msg.msg-continuation {
+    padding: 0;
+    margin: 0;    
+}
 .message {
     box-shadow: none;
+    max-width: none;
+    width: 100%;
 }
 .message::before {
     display: none;
 }
+.message.message-system {
+    display: none;
+}
 .message .bubble {
-    padding: 0;
+    padding: 0;   
+}
+.message-in, 
+.message-out {
+    border-radius: 0;
+    border: 1px solid #000;
+    border-bottom: 0 none; 
+}
+.message-out {
+    text-align: right;
+}
+.message-text {
     font-size: inherit;
-    line-height: 160%;    
+    line-height: 160%;     
 }
