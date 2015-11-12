@@ -232,6 +232,15 @@ img.emoji {
 .message .bubble-image .image-thumb-lores {
     -webkit-filter: blur(1px); 
 }
+.message .bubble-attach {
+    width: auto;
+}
+.message .bubble-attach .icon-user-default-square {
+    background: none;
+}
+.message .bubble-attach .meta-audio {
+    
+}
 .message-in, 
 .message-out {
     border-radius: 0;
