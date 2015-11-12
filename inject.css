@@ -1,3 +1,7 @@
+body {
+    font-size: 12px;
+}
+
 .app-wrapper::after {
     display: none;
 }
@@ -10,11 +14,23 @@
     right: 0;
     bottom: 0;
 }
+.pane {
+    background-color: #fefefe !important;
+}
+.pane .pane-header {
+    display: none;
+}
 .pane-list {
     width: 25%;
 }
 .pane-intro, .pane-chat {
     width: 75%;
+}
+.pane-intro .intro-body {
+    display: none;
+}
+.pane-intro::after {
+    display: none;
 }
 .butterbar-container {
     background-color: #fefefe;
@@ -28,6 +44,7 @@
     display: none;
 }
 .butterbar-wrapper {
+
 }
 .butterbar .butterbar-icon,
 .butterbar .butterbar-text {
@@ -59,7 +76,7 @@
     bottom: 0;
     margin: 0;
     padding: 0;
-    color: #000;
+    color: inherit;
     font-size: inherit;
     line-height: 160%;
 }
@@ -74,8 +91,82 @@
     padding: 0;
     border: 0 none;
     border-radius: 0;
-    color: #000;
+    color: inherit;
     font-size: inherit;
     line-height: 160%;
     -webkit-padding-start: 0 !important;
+}
+.infinite-list-item {
+    height: auto !important;
+}
+.chatlist .chat, 
+.chatlist .chat.active,
+.chatlist .chat.hover {
+    padding: 0;
+    border: 1px solid #000;
+    border-bottom: 0 none; 
+    background-color: inherit;
+}
+.chatlist .chat::before,
+.chatlist .chat::after {
+    display: none;
+}
+.chat .chat-avatar {
+    display: none;
+}
+.chat .chat-main,
+.chat .chat-body {
+    margin: 0;
+}
+.chat .chat-main .chat-title {
+    color: inherit;
+    font-size: inherit;
+    line-height: 160%;
+}
+.chat .chat-main .chat-meta {
+    position: absolute;
+    right: 35px;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    font-size: inherit;
+    line-height: 160%;
+}
+.chat .chat-main .chat-meta .chat-time {
+    display: block;
+    width: 125px;
+    height: 100%;
+    border: 1px solid #000;
+    border-top: 0 none; 
+    border-bottom: 0 none; 
+}
+.chat .chat-secondary {
+    min-height: 0;
+}
+.chat .chat-secondary .chat-meta {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    font-size: inherit;
+    line-height: 160%;
+}
+.chat .chat-secondary .chat-meta .unread-count {
+    background-color: transparent;
+    color: inherit;
+    height: 100%;
+}
+.chat.hover .chat-secondary .chat-meta .unread-count {
+    display: none;
+}
+.chat .chat-secondary .chat-status {
+    display: none;
+}
+img.emoji {
+    transform: scale(0.5)
 }
