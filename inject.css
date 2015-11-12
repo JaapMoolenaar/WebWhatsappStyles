@@ -206,7 +206,26 @@ img.emoji {
     display: none;
 }
 .message.message-system {
-    display: none;
+    /*display: none;*/
+}
+.msg-unread {
+    height: auto;
+}
+.message-system-body,
+.msg-unread-body {
+    height: auto;
+    margin: 0;
+    padding: 6px 0 0;
+    background: none;
+    box-shadow: none;
+    border: 1px solid #000;
+    border-bottom: 0 none; 
+    border-radius: 0;
+    width: 100%;
+    text-align: left;
+    font-size: 0.8em;
+    line-height: 160%; 
+    color: inherit;   
 }
 
 .message .bubble {
