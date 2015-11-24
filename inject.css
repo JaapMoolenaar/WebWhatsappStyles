@@ -1,7 +1,7 @@
 body {
     font-size: 13px;
     background-size: contain;
-    background: no-repeat url(https://rawgit.com/Satsume/WebWhatsappStyles/master/background.png) 0 0;
+    background: no-repeat url(background.png) 0 0;
 }
 
 /* Main */
@@ -39,6 +39,9 @@ body {
 }
 .pane-intro::after {
     display: none;
+}
+.pane-chat {
+    border-top: 1px solid #000;
 }
 .pane-chat-tile-container {
     background: none;
