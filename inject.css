@@ -80,6 +80,7 @@ body {
     height: 30px;
     border: 1px solid #000;
     border-bottom: 0 none;    
+    border-top: 0 none;    
 }
 .subheader-search button {
     display: none;
@@ -95,7 +96,7 @@ body {
     padding: 0;
     color: inherit;
     font-size: inherit;
-    line-height: 160%;
+    line-height: 215%;
 }
 .subheader-search .cont-input-search {
     height: auto;
