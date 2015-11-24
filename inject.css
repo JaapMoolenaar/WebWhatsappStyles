@@ -17,6 +17,7 @@ body {
     right: 0;
     bottom: 0;
     box-shadow: none;
+    border-top: 1px solid #000;
 }
 .pane {
     background-color: #fff !important;
@@ -39,9 +40,6 @@ body {
 }
 .pane-intro::after {
     display: none;
-}
-.pane-chat {
-    border-top: 1px solid #000;
 }
 .pane-chat-tile-container {
     background: none;
